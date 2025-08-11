@@ -22,3 +22,25 @@ function oddAverege(numbers) {
 const numbers = [45,67,56,51,80,81,91,90,101,21,11,9,49];
 const avg = oddAverege(numbers);
 console.log(avg);
+
+
+
+// function oddAverege(numbers) {
+//     const odds = [];
+//     for(const number of numbers) {
+//         if (number % 2 === 1) {
+//             odds.push(number)
+//         }
+//     }
+//     let sum = 0;
+//     for(const number of odds){
+//         sum = sum + number;
+//     }
+//     const count = odds.length;
+//     console.log(sum , count);
+//     const avg = sum / count;
+//     return avg ;
+// }
+// const numbers = [20, 21, 45, 46,71,70,91,9,80,81];
+// const avg = oddAverege(numbers);
+// console.log(avg);
